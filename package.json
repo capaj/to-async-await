@@ -1,0 +1,37 @@
+{
+  "name": "to-async-await",
+  "version": "0.0.1",
+  "description": "turn a raw javascript promise code into async/await code with a single command",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "ava",
+    "tdd": "ava -w",
+    "tdd:update": "ava -w -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capaj/to-async-await.git"
+  },
+  "keywords": [],
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capaj/to-async-await/issues"
+  },
+  "homepage": "https://github.com/capaj/to-async-await#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "standard": "^10.0.2"
+  },
+  "ava": {
+    "files": [
+      "*.spec.js"
+    ]
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "recast": "^0.12.3"
+  }
+}

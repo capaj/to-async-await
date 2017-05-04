@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic 1`] = `
+"let a;
+
+module.exports = () => {
+  var _temp;
+
+  const c = await a.then((b) => {
+    return b + 1
+  });
+
+  return c + 1;
+};"
+`;
